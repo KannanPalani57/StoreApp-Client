@@ -1,20 +1,81 @@
 .section-main {
+  height: 80vh !important;
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: rgb(245 244 244);
-  margin-top: 4vw;
-  height: max-content;
+  margin-top: 10vw;
+ 
+  
+
 }
 .loginform {
-  background-color: rgb(255, 255, 255);
+  background-image: url(loginbg.jpg), linear-gradient(417.59deg, #000000 4.79%, #00162D 96.42%)!important;
+  background-blend-mode: overlay;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  background-size: cover;
   display: flex;
-  margin-top: 1vw;
+  margin-top: -3vw;
+  height: 77vh !important;
 
   width: fit-content;
   color: black;
   text-align: left;
   padding: 2vw;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+
+
+
+form{
+  justify-content: center;
+  margin-top: 13rem;
+  align-items: center;
+  margin-left: -13rem;
+  color: #fefefe;
+
+}
+
+
+.MuiSvgIcon-root{
+fill: #007bff !important;}
+.cuate{
+  height: max-content;
+    width: max-content;
+    margin-left: 51px;
+}
+#placeholder {
+  border: none !important;
+  border-bottom: 2px solid #007bff !important;
+  outline: none !important;
+  background: none !important;
+  color: #fefe;
+}
+.submit-btn{
+  margin-left: 11vh;
+  padding: .375rem 1.75rem;
+}
+
+@media (max-width: 425px){
+  .section-main{
+    width: 109% !important;
+    height:90vh !important;
+    margin-top: -14vw !important;
+    margin-left: -2vh;
+  }
+  .loginform{
+    width: 111%;
+    height: 91vh !important;
+    margin-left: -6vh !important;
+    margin-top: 0rem !important;
+  }
+  .cuate{
+    margin-left: 158px !important;
+    margin-top: 4rem !important;
+  }
+  form{
+    margin-top: 18rem !important;
+    margin-left: -13rem !important;
+    
+  }
 }
