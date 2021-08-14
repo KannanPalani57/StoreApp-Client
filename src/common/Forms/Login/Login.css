@@ -9,7 +9,7 @@
 
 }
 .loginform {
-  background-image: url(loginbg.jpg), linear-gradient(417.59deg, #000000 4.79%, #00162D 96.42%)!important;
+  background-image: url(https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80), linear-gradient(417.59deg, #000000 4.79%, #00162D 96.42%)!important;
   background-blend-mode: overlay;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
   rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -24,8 +24,6 @@
   padding: 2vw;
 
 }
-
-
 
 form{
   justify-content: center;
