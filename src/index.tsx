@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
-import { createStore, combineReducers, applyMiddleware ,Store } from "redux"; //globalize state
+import { createStore, combineReducers, applyMiddleware, Store } from "redux"; //globalize state
 import { Provider } from "react-redux";
 import thunk from "redux-thunk";
 // import logger from "redux-logger";
@@ -13,7 +13,7 @@ import index from './redux/reducers/index'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { composeWithDevTools } from "redux-devtools-extension";
 
-const store:Store = createStore(
+const store: Store = createStore(
   index,
   composeWithDevTools(applyMiddleware(thunk))
 );
@@ -22,11 +22,11 @@ const store:Store = createStore(
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-    <Router>
-    <App />
-    </Router>
+      <Router>
+        <App />
+      </Router>
     </Provider>
-  
+
 
   </React.StrictMode>,
   document.getElementById('root')
